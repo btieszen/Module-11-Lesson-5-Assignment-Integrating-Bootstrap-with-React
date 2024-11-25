@@ -1,0 +1,43 @@
+h1{
+    margin-top:10px;
+    text-align: center;
+    padding:0px;
+}
+body{
+    background-color: beige;
+}
+nav{
+    background-color:#0a0a0a;
+    overflow:hidden;
+}
+
+nav a {
+    float:left;
+    display:block;
+    color:rgb(241, 231, 231);
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+nav a:hoover{
+    background-color:#df1b1b;
+    color:rgb(12, 221, 82);
+}
+
+nav a.active{
+    background-color: #04aa6d;
+    color:rgb(218, 15, 15);
+}
+
+.clearfix:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+p{
+    margin-top:1px;
+    text-align: center;
+    padding:0px;
+}
